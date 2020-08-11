@@ -17,7 +17,7 @@ fire = Painting.new("Fire and Water", 200)
 g1 = Gallery.new("Chicago", xan, moon)
 g2 = Gallery.new("New York", xan, fire)
 g3 = Gallery.new("Philadelphia", carmen, grass)
-g4 = Gallery.new("Chicago", tom, moon)
+g4 = Gallery.new("Chicago", tom, sun)
  
 
 

@@ -24,4 +24,13 @@ class Artist
         end
     end
 
+    def self.artists
+        Artist.all.map do |a|
+        a.name
+        end
+    end
+
+    def new_painting(title, price, gallery)
+        Painting.new(title, price)
+    end
 end

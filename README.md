@@ -10,13 +10,13 @@ What are the relationships between your models?
 Class Attributes and Methods
 ARTIST
 
-Artist.all
+<!-- Artist.all -->
 
 Returns an array of all the artists
 Artist#paintings
 
-Returns an array all the paintings by an artist
-Artist#galleries
+<!-- Returns an array all the paintings by an artist
+Artist#galleries -->
 
 Returns an array of all the galleries that an artist has paintings in
 Artist#cities
@@ -35,10 +35,10 @@ PAINTING
 
 Painting.all
 
-Returns an array of all the paintings
-Painting.total_price
+<!-- Returns an array of all the paintings
+<!-- Painting.total_price -->
 
-Returns an integer that is the total price of all paintings
+Returns an integer that is the total price of all paintings -->
 GALLERY
 
 Gallery.all
